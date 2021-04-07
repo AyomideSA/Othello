@@ -2,5 +2,6 @@
 
 int main() {
     printf("Hello, World!\n");
+    printf("Test Commit");
     return 0;
 }
