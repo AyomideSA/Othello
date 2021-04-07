@@ -1,0 +1,3 @@
+C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir
+C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/edit_cache.dir
