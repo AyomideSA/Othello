@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/library.c">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/library.h">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
 		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/main.c">
 			<Option target="Software_Project_2_20338061"/>
 		</Unit>
