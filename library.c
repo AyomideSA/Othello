@@ -4,6 +4,23 @@
 #include <stdio.h>
 #include "library.h"
 
+void initialiseBoard(char board[][8]) {
+
+
+    for (size_t i = 0; i < 8; i++) {
+
+        for (size_t j = 0; j < 8; j++)
+            board[i][j] = '.';
+
+    }
+
+    board[3][3] = 'W';
+    board[3][4] = 'B';
+    board[4][3] = 'B';
+    board[4][4] = 'W';
+
+}
+
 
 void printBoard(char rowLabels[], char columnLabels[], char board[][8]) {
 
@@ -13,8 +30,9 @@ void printBoard(char rowLabels[], char columnLabels[], char board[][8]) {
 
         printf("%c", rowLabels[i]);
 
-        for (size_t j = 0; j < 8; j++)
+        for (size_t j = 0; j < 8; j++) {
             printf("\t%c", board[i][j]);
+        }
 
         printf("\n\n");
 
@@ -26,19 +44,3 @@ void printBoard(char rowLabels[], char columnLabels[], char board[][8]) {
 
 }
 
-void initialiseBoard(char board[][8]) {
-
-
-    for (size_t i = 0; i < 8; i++) {
-
-        for (size_t j = 0; j < 8; j++)
-            board[i][j] = '.';
-
-    }
-
-    board[3][3] = 'B';
-    board[3][4] = 'W';
-    board[4][3] = 'B';
-    board[4][4] = 'W';
-
-}

@@ -142,6 +142,33 @@ Software_Project_2_20338061/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/build
 .PHONY : Software_Project_2_20338061/fast
 
+Utility.obj: Utility.c.obj
+
+.PHONY : Utility.obj
+
+# target to build an object file
+Utility.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj
+.PHONY : Utility.c.obj
+
+Utility.i: Utility.c.i
+
+.PHONY : Utility.i
+
+# target to preprocess a source file
+Utility.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/Utility.c.i
+.PHONY : Utility.c.i
+
+Utility.s: Utility.c.s
+
+.PHONY : Utility.s
+
+# target to generate assembly for a file
+Utility.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/Utility.c.s
+.PHONY : Utility.c.s
+
 library.obj: library.c.obj
 
 .PHONY : library.obj
@@ -205,6 +232,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Software_Project_2_20338061
+	@echo ... Utility.obj
+	@echo ... Utility.i
+	@echo ... Utility.s
 	@echo ... library.obj
 	@echo ... library.i
 	@echo ... library.s
