@@ -169,32 +169,59 @@ Utility.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/Utility.c.s
 .PHONY : Utility.c.s
 
-library.obj: library.c.obj
+board.obj: board.c.obj
 
-.PHONY : library.obj
+.PHONY : board.obj
 
 # target to build an object file
-library.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/library.c.obj
-.PHONY : library.c.obj
+board.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/board.c.obj
+.PHONY : board.c.obj
 
-library.i: library.c.i
+board.i: board.c.i
 
-.PHONY : library.i
+.PHONY : board.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/library.c.i
-.PHONY : library.c.i
+board.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/board.c.i
+.PHONY : board.c.i
 
-library.s: library.c.s
+board.s: board.c.s
 
-.PHONY : library.s
+.PHONY : board.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/library.c.s
-.PHONY : library.c.s
+board.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/board.c.s
+.PHONY : board.c.s
+
+game.obj: game.c.obj
+
+.PHONY : game.obj
+
+# target to build an object file
+game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/game.c.obj
+.PHONY : game.c.obj
+
+game.i: game.c.i
+
+.PHONY : game.i
+
+# target to preprocess a source file
+game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/game.c.i
+.PHONY : game.c.i
+
+game.s: game.c.s
+
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/game.c.s
+.PHONY : game.c.s
 
 main.obj: main.c.obj
 
@@ -235,9 +262,12 @@ help:
 	@echo ... Utility.obj
 	@echo ... Utility.i
 	@echo ... Utility.s
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
+	@echo ... board.obj
+	@echo ... board.i
+	@echo ... board.s
+	@echo ... game.obj
+	@echo ... game.i
+	@echo ... game.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

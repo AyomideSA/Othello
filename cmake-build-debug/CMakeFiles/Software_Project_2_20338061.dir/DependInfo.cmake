@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/Utility.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj"
-  "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/library.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/library.c.obj"
+  "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/board.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/board.c.obj"
+  "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/game.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/game.c.obj"
   "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/main.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

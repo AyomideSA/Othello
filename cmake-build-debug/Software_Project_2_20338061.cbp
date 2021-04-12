@@ -80,10 +80,16 @@
 		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/Utility.h">
 			<Option target="Software_Project_2_20338061"/>
 		</Unit>
-		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/library.c">
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/board.c">
 			<Option target="Software_Project_2_20338061"/>
 		</Unit>
-		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/library.h">
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/board.h">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/game.c">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/game.h">
 			<Option target="Software_Project_2_20338061"/>
 		</Unit>
 		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/main.c">

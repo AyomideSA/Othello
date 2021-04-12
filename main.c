@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include "library.h"
+#include "board.h"
 #include "Utility.h"
 
 
-typedef enum PlayerColour {BLACK = 0, WHITE = 1 } playerColour;
+typedef enum {BLACK = 0, WHITE = 1 } playerColour;
+typedef enum {BLACK_TURN = 0, WHITE_TURN = 1, END = 2} GameStatus;
 
 typedef struct {
 
@@ -31,9 +32,12 @@ int main()
                       };
     Player player1 = {2};
     Player player2 = {2};
+    char action[3];
+    GameStatus gameStatus = BLACK_TURN;
 
 
     initialiseBoard(gameBoard.Board);
+
 
     printf("Enter your name player 1 (Black): ");
     fgets(player1.playerName,9,stdin);
@@ -43,8 +47,52 @@ int main()
     fgets(player2.playerName,9,stdin);
     removeNewline(player2.playerName);
 
+
     printf("\n\n\t\t%s (Black): %d || %s (White): %d\n", player1.playerName, player1.score, player2.playerName, player2.score);
     printBoard(gameBoard.rowLabels, gameBoard.columnLabels, gameBoard.Board);
+
+    while (gameStatus != END) {
+
+        if (gameStatus == BLACK_TURN) {
+
+            printf("What would you like to do %s?\n", player1.playerName);
+            fgets(action,3,stdin);
+
+            if (action[0] == 'p')
+                gameStatus = WHITE_TURN;
+
+            else {
+
+                playGame(BLACK_TURN, &player1.score, &player2.score, action);
+                gameStatus = WHITE_TURN;
+
+            }
+
+
+        }
+
+        else {
+
+            printf("What would you like to do %s?\n", player2.playerName);
+            fgets(action,3,stdin);
+
+            if (action[0] == 'p')
+                gameStatus = BLACK_TURN;
+
+            else {
+
+                playGame(WHITE_TURN, &player2.score, &player1.score, action);
+                gameStatus = BLACK_TURN;
+
+            }
+
+        }
+
+        printf("\n\n\t\t%s (Black): %d || %s (White): %d\n", player1.playerName, player1.score, player2.playerName, player2.score);
+        printBoard(gameBoard.rowLabels, gameBoard.columnLabels, gameBoard.Board);
+
+
+    }
 
 
     return 0;

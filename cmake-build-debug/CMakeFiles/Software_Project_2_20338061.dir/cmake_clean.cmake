@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj"
-  "CMakeFiles/Software_Project_2_20338061.dir/library.c.obj"
+  "CMakeFiles/Software_Project_2_20338061.dir/board.c.obj"
+  "CMakeFiles/Software_Project_2_20338061.dir/game.c.obj"
   "CMakeFiles/Software_Project_2_20338061.dir/main.c.obj"
   "Software_Project_2_20338061.exe"
   "Software_Project_2_20338061.exe.manifest"

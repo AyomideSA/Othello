@@ -89,18 +89,18 @@ CMakeFiles/Software_Project_2_20338061.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Software_Project_2_20338061.dir/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\main.c -o CMakeFiles\Software_Project_2_20338061.dir\main.c.s
 
-CMakeFiles/Software_Project_2_20338061.dir/library.c.obj: CMakeFiles/Software_Project_2_20338061.dir/flags.make
-CMakeFiles/Software_Project_2_20338061.dir/library.c.obj: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Software_Project_2_20338061.dir/library.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Software_Project_2_20338061.dir\library.c.obj   -c C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\library.c
+CMakeFiles/Software_Project_2_20338061.dir/board.c.obj: CMakeFiles/Software_Project_2_20338061.dir/flags.make
+CMakeFiles/Software_Project_2_20338061.dir/board.c.obj: ../board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Software_Project_2_20338061.dir/board.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Software_Project_2_20338061.dir\board.c.obj   -c C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\board.c
 
-CMakeFiles/Software_Project_2_20338061.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Software_Project_2_20338061.dir/library.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\library.c > CMakeFiles\Software_Project_2_20338061.dir\library.c.i
+CMakeFiles/Software_Project_2_20338061.dir/board.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Software_Project_2_20338061.dir/board.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\board.c > CMakeFiles\Software_Project_2_20338061.dir\board.c.i
 
-CMakeFiles/Software_Project_2_20338061.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Software_Project_2_20338061.dir/library.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\library.c -o CMakeFiles\Software_Project_2_20338061.dir\library.c.s
+CMakeFiles/Software_Project_2_20338061.dir/board.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Software_Project_2_20338061.dir/board.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\board.c -o CMakeFiles\Software_Project_2_20338061.dir\board.c.s
 
 CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj: CMakeFiles/Software_Project_2_20338061.dir/flags.make
 CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj: ../Utility.c
@@ -115,23 +115,38 @@ CMakeFiles/Software_Project_2_20338061.dir/Utility.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Software_Project_2_20338061.dir/Utility.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\Utility.c -o CMakeFiles\Software_Project_2_20338061.dir\Utility.c.s
 
+CMakeFiles/Software_Project_2_20338061.dir/game.c.obj: CMakeFiles/Software_Project_2_20338061.dir/flags.make
+CMakeFiles/Software_Project_2_20338061.dir/game.c.obj: ../game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Software_Project_2_20338061.dir/game.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Software_Project_2_20338061.dir\game.c.obj   -c C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\game.c
+
+CMakeFiles/Software_Project_2_20338061.dir/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Software_Project_2_20338061.dir/game.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\game.c > CMakeFiles\Software_Project_2_20338061.dir\game.c.i
+
+CMakeFiles/Software_Project_2_20338061.dir/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Software_Project_2_20338061.dir/game.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\game.c -o CMakeFiles\Software_Project_2_20338061.dir\game.c.s
+
 # Object files for target Software_Project_2_20338061
 Software_Project_2_20338061_OBJECTS = \
 "CMakeFiles/Software_Project_2_20338061.dir/main.c.obj" \
-"CMakeFiles/Software_Project_2_20338061.dir/library.c.obj" \
-"CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj"
+"CMakeFiles/Software_Project_2_20338061.dir/board.c.obj" \
+"CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj" \
+"CMakeFiles/Software_Project_2_20338061.dir/game.c.obj"
 
 # External object files for target Software_Project_2_20338061
 Software_Project_2_20338061_EXTERNAL_OBJECTS =
 
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/main.c.obj
-Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/library.c.obj
+Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/board.c.obj
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj
+Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/game.c.obj
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/build.make
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/linklibs.rsp
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/objects1.rsp
 Software_Project_2_20338061.exe: CMakeFiles/Software_Project_2_20338061.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Software_Project_2_20338061.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ayoso\CLionProjects\Software_Project_2_20338061\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Software_Project_2_20338061.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Software_Project_2_20338061.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

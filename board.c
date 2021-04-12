@@ -2,7 +2,7 @@
 // Created by ayoso on 09/04/2021.
 //
 #include <stdio.h>
-#include "library.h"
+#include "board.h"
 
 void initialiseBoard(char board[][8]) {
 
