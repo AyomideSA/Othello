@@ -3,10 +3,14 @@
 
 CMakeFiles/Software_Project_2_20338061.dir/Utility.c.obj: ../Utility.c
 
-CMakeFiles/Software_Project_2_20338061.dir/library.c.obj: ../library.c
-CMakeFiles/Software_Project_2_20338061.dir/library.c.obj: ../library.h
+CMakeFiles/Software_Project_2_20338061.dir/board.c.obj: ../board.c
+CMakeFiles/Software_Project_2_20338061.dir/board.c.obj: ../board.h
+
+CMakeFiles/Software_Project_2_20338061.dir/game.c.obj: ../game.c
+CMakeFiles/Software_Project_2_20338061.dir/game.c.obj: ../game.h
 
 CMakeFiles/Software_Project_2_20338061.dir/main.c.obj: ../Utility.h
-CMakeFiles/Software_Project_2_20338061.dir/main.c.obj: ../library.h
+CMakeFiles/Software_Project_2_20338061.dir/main.c.obj: ../board.h
+CMakeFiles/Software_Project_2_20338061.dir/main.c.obj: ../game.h
 CMakeFiles/Software_Project_2_20338061.dir/main.c.obj: ../main.c
 

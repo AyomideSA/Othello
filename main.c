@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "board.h"
 #include "Utility.h"
+#include "game.h"
 
 
-typedef enum {BLACK = 0, WHITE = 1 } playerColour;
 typedef enum {BLACK_TURN = 0, WHITE_TURN = 1, END = 2} GameStatus;
 
 typedef struct {
@@ -18,7 +18,7 @@ typedef struct {
 typedef struct {
 
     int score;
-    playerColour colour;
+    char colour;
     char playerName[9];
 
 } Player;
@@ -30,8 +30,8 @@ int main()
                         {'1','2','3','4','5','6','7','8'},
                         {'a','b','c','d','e','f','g','h'},
                       };
-    Player player1 = {2};
-    Player player2 = {2};
+    Player player1 = {2,'B'};
+    Player player2 = {2,'W'};
     char action[3];
     GameStatus gameStatus = BLACK_TURN;
 
@@ -51,6 +51,28 @@ int main()
     printf("\n\n\t\t%s (Black): %d || %s (White): %d\n", player1.playerName, player1.score, player2.playerName, player2.score);
     printBoard(gameBoard.rowLabels, gameBoard.columnLabels, gameBoard.Board);
 
+    char clearBuffer[256];
+    printf("\n\nWhat would you like to do %s?\n", player1.playerName);
+    fgets(action,3,stdin);
+    fgets(clearBuffer,256,stdin);
+
+    /* Valid Move Function Testing */
+    while (action[0] != 'p') {
+
+        if (validMove(action, gameBoard.Board, player1.colour)) {
+            printf("Valid Move!!!");
+        } else {
+            printf("Not Valid Move!!!");
+        }
+
+        printf("\n\nWhat would you like to do %s?\n", player1.playerName);
+        fgets(action,3,stdin);
+        fgets(clearBuffer,256,stdin);
+
+    }
+
+
+/*
     while (gameStatus != END) {
 
         if (gameStatus == BLACK_TURN) {
@@ -92,7 +114,7 @@ int main()
         printBoard(gameBoard.rowLabels, gameBoard.columnLabels, gameBoard.Board);
 
 
-    }
+    }*/
 
 
     return 0;
