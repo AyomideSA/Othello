@@ -33,6 +33,7 @@ int main()
     Player player1 = {2,'B'};
     Player player2 = {2,'W'};
     char action[3];
+    int scoreUpdate;
     GameStatus gameStatus = BLACK_TURN;
 
 
@@ -57,7 +58,7 @@ int main()
     fgets(clearBuffer,256,stdin);
 
     /* Valid Move Function Testing */
-    while (action[0] != 'p') {
+    /*while (action[0] != 'p') {
 
         if (validMove(action, gameBoard.Board, player1.colour)) {
             printf("Valid Move!!!");
@@ -69,23 +70,27 @@ int main()
         fgets(action,3,stdin);
         fgets(clearBuffer,256,stdin);
 
-    }
+    }*/
 
 
-/*
+
     while (gameStatus != END) {
 
-        if (gameStatus == BLACK_TURN) {
+        if (gameStatus == BLACK_TURN ) {
 
             printf("What would you like to do %s?\n", player1.playerName);
-            fgets(action,3,stdin);
+            while ( fgets(action,3,stdin) && !validMove(action,gameBoard.Board,player1.colour) ) {
+                printf("Move not valid. Enter different move: ");
+                fgets(clearBuffer,256,stdin);
+            }
+
 
             if (action[0] == 'p')
                 gameStatus = WHITE_TURN;
 
             else {
 
-                playGame(BLACK_TURN, &player1.score, &player2.score, action);
+                scoreUpdate = updateScore(player1.colour, action, gameBoard.Board);
                 gameStatus = WHITE_TURN;
 
             }
@@ -93,28 +98,37 @@ int main()
 
         }
 
-        else {
+
+
+
+        else if (gameStatus == WHITE_TURN) {
 
             printf("What would you like to do %s?\n", player2.playerName);
-            fgets(action,3,stdin);
+            while ( fgets(action,3,stdin) && !validMove(action,gameBoard.Board,player2.colour) ) {
+                printf("Move not valid. Enter different move: ");
+                fgets(clearBuffer,256,stdin);
+            }
 
             if (action[0] == 'p')
                 gameStatus = BLACK_TURN;
 
+
             else {
 
-                playGame(WHITE_TURN, &player2.score, &player1.score, action);
+                scoreUpdate = updateScore(player2.colour, action, gameBoard.Board);
                 gameStatus = BLACK_TURN;
 
             }
 
         }
+
+
 
         printf("\n\n\t\t%s (Black): %d || %s (White): %d\n", player1.playerName, player1.score, player2.playerName, player2.score);
         printBoard(gameBoard.rowLabels, gameBoard.columnLabels, gameBoard.Board);
 
 
-    }*/
+    }
 
 
     return 0;
