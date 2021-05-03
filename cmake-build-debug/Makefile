@@ -250,6 +250,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/main.c.s
 .PHONY : main.c.s
 
+moveChecking.obj: moveChecking.c.obj
+
+.PHONY : moveChecking.obj
+
+# target to build an object file
+moveChecking.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/moveChecking.c.obj
+.PHONY : moveChecking.c.obj
+
+moveChecking.i: moveChecking.c.i
+
+.PHONY : moveChecking.i
+
+# target to preprocess a source file
+moveChecking.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/moveChecking.c.i
+.PHONY : moveChecking.c.i
+
+moveChecking.s: moveChecking.c.s
+
+.PHONY : moveChecking.s
+
+# target to generate assembly for a file
+moveChecking.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/moveChecking.c.s
+.PHONY : moveChecking.c.s
+
+results.obj: results.c.obj
+
+.PHONY : results.obj
+
+# target to build an object file
+results.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/results.c.obj
+.PHONY : results.c.obj
+
+results.i: results.c.i
+
+.PHONY : results.i
+
+# target to preprocess a source file
+results.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/results.c.i
+.PHONY : results.c.i
+
+results.s: results.c.s
+
+.PHONY : results.s
+
+# target to generate assembly for a file
+results.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Software_Project_2_20338061.dir\build.make CMakeFiles/Software_Project_2_20338061.dir/results.c.s
+.PHONY : results.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,6 +325,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... moveChecking.obj
+	@echo ... moveChecking.i
+	@echo ... moveChecking.s
+	@echo ... results.obj
+	@echo ... results.i
+	@echo ... results.s
 .PHONY : help
 
 

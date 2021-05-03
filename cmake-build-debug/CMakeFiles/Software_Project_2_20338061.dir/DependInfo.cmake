@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/board.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/board.c.obj"
   "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/game.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/game.c.obj"
   "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/main.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/main.c.obj"
+  "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/moveChecking.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/moveChecking.c.obj"
+  "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/results.c" "C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/cmake-build-debug/CMakeFiles/Software_Project_2_20338061.dir/results.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

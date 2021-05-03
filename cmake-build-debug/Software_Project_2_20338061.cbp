@@ -95,6 +95,18 @@
 		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/main.c">
 			<Option target="Software_Project_2_20338061"/>
 		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/moveChecking.c">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/moveChecking.h">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/results.c">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
+		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/results.h">
+			<Option target="Software_Project_2_20338061"/>
+		</Unit>
 		<Unit filename="C:/Users/ayoso/CLionProjects/Software_Project_2_20338061/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

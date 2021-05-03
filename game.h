@@ -13,19 +13,25 @@ typedef struct {
 
 } board;
 
+typedef struct {
+
+    int score;
+    char colour;
+    char name[15];
+
+} Player;
+
+typedef enum {BLACK_TURN, WHITE_TURN, END} GameStatus;
+
 #endif
 
 #ifndef SOFTWARE_PROJECT_2_20338061_GAME_H
 #define SOFTWARE_PROJECT_2_20338061_GAME_H
 #include <stdio.h>
+int playGame(Player * currPlayer, int *nextPlayerScore, board * gameBoard);
 int updateScore(char colour, char action[], char board[][8]);
-int validMove(char action[], char board[][8], char colour);
-int anyValidMove(char board[][8], char colour);
-int directionValid(int row, int col, int direction[], char board[][8], char colour);
 int changeDiscs(int row, int col, int direction[], char board[][8], char colour);
-int boardFull (char board[][8]);
-void printResult(int scoreBlack, int scoreWhite);
-void appendResult(FILE* resultPtr, int scoreBlack, int scoreWhite, char nameBlack[9], char nameWhite[9]);
+
 
 #endif //SOFTWARE_PROJECT_2_20338061_GAME_H
 

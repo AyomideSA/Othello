@@ -44,3 +44,19 @@ void printBoard(char rowLabels[], char columnLabels[], char board[][8]) {
 
 }
 
+int boardFull (char board[][8]) {
+
+    for (size_t i = 0; i < 8; i++) {
+
+        for (size_t j = 0; j < 8; j++) {
+
+            if (board[i][j] == '.')
+                return 0;
+
+        }
+
+    }
+
+    return 1;
+
+}

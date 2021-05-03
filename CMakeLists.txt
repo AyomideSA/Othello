@@ -3,4 +3,4 @@ project(Software_Project_2_20338061 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Software_Project_2_20338061 main.c board.c Utility.c game.c)
+add_executable(Software_Project_2_20338061 main.c board.c Utility.c game.c moveChecking.h moveChecking.c results.h results.c)
