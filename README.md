@@ -21,7 +21,7 @@ Checking in a direction ends when either a blank space on the board is found, th
 When a player enters 'p' a function is called that checks all directions around every location on the board. If even one valid move is found the player's request to pass is rejected
 
 # Reaching the game's end
-A game ends one of two ways:
+A game ends in one of two ways:
 1. When the board is full
 2. When both players can't make a move
 
