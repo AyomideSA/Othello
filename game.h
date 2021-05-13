@@ -25,13 +25,14 @@ typedef enum {BLACK_TURN, WHITE_TURN, END} GameStatus;
 
 #endif
 
+
 #ifndef SOFTWARE_PROJECT_2_20338061_GAME_H
+
 #define SOFTWARE_PROJECT_2_20338061_GAME_H
 #include <stdio.h>
-int playGame(Player * currPlayer, int *nextPlayerScore, board * gameBoard);
+GameStatus playGame(Player * currPlayer, int *nextPlayerScore, board * gameBoard);
 int updateScore(char colour, char action[], char board[][8]);
-int changeDiscs(int row, int col, int direction[], char board[][8], char colour);
-
+int changeDiscs(size_t row, size_t col, size_t direction[], char board[][8], char colour);
 
 #endif //SOFTWARE_PROJECT_2_20338061_GAME_H
 

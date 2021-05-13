@@ -1,8 +1,9 @@
-//
-// Created by ayoso on 10/04/2021.
-//
+/*
+ * Date: 18/5/21
+ */
 
 #include <string.h>
+
 
 void removeNewline(char array[])
 {

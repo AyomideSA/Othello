@@ -1,6 +1,10 @@
-//
-// Created by ayoso on 01/05/2021.
-//
+/*
+ * Date: 18/5/21
+ *
+ * Description: For summarising result of game
+ *
+ */
+
 #include <stdio.h>
 #include <time.h>
 
