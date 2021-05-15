@@ -65,14 +65,14 @@ int updateScore(char colour, char action[], char board[][8]) {
 
     // All possible directions to move in on the board //
     size_t directions[8][2] = {
-            {-1,0},
-            {-1,1},
-            {0,1},
-            {1,1},
-            {1,0},
-            {1,-1},
-            {0,-1},
-            {-1,-1}
+            {-1,0}, // Up
+            {-1,1}, // Top Right
+            {0,1}, // Right
+            {1,1}, // Bottom Right
+            {1,0}, // Down
+            {1,-1}, // Bottom Left
+            {0,-1}, // Left
+            {-1,-1} // Top Left
     };
 
     // Current direction to be checked //

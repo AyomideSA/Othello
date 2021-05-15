@@ -16,7 +16,6 @@
  *
 */
 
-
 typedef enum {BLACK_TURN, WHITE_TURN, END} GameStatus; // datatype to represent current game state
 
 typedef struct {
