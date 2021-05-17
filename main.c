@@ -13,7 +13,6 @@
  *          2. Appends the date, time and result of the game to a file called "othello-results.txt"
  *
  * Information about Othello can be found at https://en.wikipedia.org/wiki/Reversi#Othello
- *
 */
 
 typedef enum {BLACK_TURN, WHITE_TURN, END} GameStatus; // datatype to represent current game state
@@ -34,7 +33,7 @@ typedef struct {
     char name[15];
 
 } Player;
-#define PLAYER_STRUCT // Prevents the definitions of the above structs and enum to occur again in when game.h is included
+#define GAME_STRUCT // Prevents the definitions of the above structs and enum to occur again in when game.h is included
 
 #include <stdio.h>
 #include "board.h"
@@ -56,8 +55,10 @@ int main() {
     Player player2 = {2, 'W'};
 
 
-    initialiseBoard(gameBoard.Board); // Board set to default state as described in othello rules
+    printIntroduction();
 
+
+    initialiseBoard(gameBoard.Board); // Board set to default state as described in othello rules
 
     printf("Enter your name(Max: 15 characters) player 1 (Black): ");
     fgets(player1.name, 15, stdin);

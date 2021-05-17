@@ -2,7 +2,6 @@
  * Date: 18/5/21
  *
  * Description: For summarising result of game
- *
  */
 
 #include <stdio.h>

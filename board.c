@@ -2,7 +2,6 @@
  * Date: 18/5/21
  *
  * Description: Functions related to game board
- *
  */
 
 #include <stdio.h>
@@ -12,7 +11,6 @@
 
 // Sets up board according to othello instructions //
 void initialiseBoard(char board[][8]) {
-
 
     for (size_t i = 0; i < 8; i++) {
 

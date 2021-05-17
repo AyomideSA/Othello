@@ -2,13 +2,29 @@
  * Date: 18/5/21
  *
  * Description: Core mechanics of the game.
- *
  */
 
+#include <stdio.h>
 #include "game.h"
 #include "board.h"
 #include "moveChecking.h"
-#include <stdio.h>
+
+
+void printIntroduction(void) {
+
+    printf("Welcome to the Othello Game Simulator.\n"
+           "This program manages a game of Othello between two people.\n"
+           "To find information about the game of Othello please go to the website found in the file \"README.txt\".\n"
+           "To place your disc, enter your move in the format a1 where 'a' is a letter in the range a to h and '1' is any digit in the range 0 to 9.\n"
+           "When no moves are available for you and you wish to pass your turn simply enter 'p'.\n"
+           "If you and your opponent are ready to play, enter any character.\n");
+
+
+    char confirm;
+    scanf(" %c", &confirm);
+    fflush(stdin);
+
+}
 
 
 // Manages current player's turn and returns state of game //

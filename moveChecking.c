@@ -2,7 +2,6 @@
  * Date: 18/5/21
  *
  * Description: Functions used in checking whether a move is allowed to be made
- *
  */
 
 #include "moveChecking.h"
